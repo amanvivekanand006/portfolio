@@ -1,0 +1,206 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+} 
+
+.nav-container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; */
+    /* background-color:#5a5a5a;
+    background-color:#222222;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 1); Increased shadow visibility */
+    /* transition: background-color 0.3s ease, transform 0.3s ease; Updated properties */
+/* }
+.button a{
+    text-decoration: none;
+    color: black;
+    transition: color 3s;
+}
+
+.button:hover{
+    background-color: yellow;
+    transition: background-color 0.5s;
+
+}
+
+.button{
+  padding: 5px;
+  height: 60px;
+  width: 200px;
+  margin: 10px 30px 10px 0px ;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Dosis", serif;
+  font-style: normal;
+}
+
+nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 20px;
+    padding: 0%;
+}   
+
+
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-family: "Dosis", serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav li a:hover{
+    color: yellow;
+    transition: color 0.5s;
+}
+
+@font-face {
+    font-family: 'myfont';
+    src: url('./Abc.ttf') format('truetype'); /* Root-relative path */
+/* }
+
+.logo h1 {
+    font-family: 'myfont', sans-serif; /* Use the custom font */
+    /* font-size: 30px;
+    margin: 0 0 0 15px;
+    color: white;
+/* } */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+} 
+
+.nav-container {
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    z-index: 1000;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+}
+
+.logo h1 {
+    font-family: 'myfont', sans-serif; 
+    font-size: 30px;
+
+
+    /* font-family: 'Dosis', sans-serif; */
+    margin: 0 0 0 15px;
+    color: white;
+}
+
+/* Desktop Menu */
+.sections {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.sections li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sections li a:hover {
+    color: yellow;
+    transition: color 0.5s;
+}
+
+/* Hire Me Button */
+.button {
+  padding: 5px;
+  height: 60px;
+  width: 200px;
+  margin: 10px 30px 10px 0px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Dosis", serif;
+  background-color: white;
+  cursor: pointer;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover {
+    background-color: yellow;
+}
+
+/* Mobile Navbar */
+.hamburger {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    .sections {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #222;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .sections.open {
+        display: flex;
+    }
+
+    .sections li {
+        padding: 15px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .button {
+        display: none; /* Hide Hire Me button on mobile */
+    }
+}
+

@@ -1,0 +1,108 @@
+.home {
+    display: flex;
+    /* gap: 20px; */
+    flex-direction: column; 
+    justify-content: center; /* Vertically center */
+    align-items: center; /* Horizontally center */
+    height: 100vh; /* Take the full viewport height */
+    text-align: center; /* Center the text inside the h1 elements */
+    background-image: url('./images/laptop.jpg');
+    background-size: cover; /* Scale the image to cover the container */
+    background-position: center; /* Center the image in the container */
+    background-repeat: no-repeat; /* Prevent tiling of the image */
+    padding: 20px; /* Ensuring spacing */
+
+  }
+
+
+  .home h1{
+    color: white;
+    font-size: 100px;
+  }
+  .home .btn a{
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 600;
+   font-family: "Dosis", serif;
+   font-style: normal;
+   color: black;
+  }
+  .devop-tag{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    justify-content: center;
+
+  }
+
+  .devop-tag #web:hover{
+    color: yellow;
+    transition: 1s;
+  }
+
+ .btn button{
+    padding: 5px;
+    height: 60px;
+    width: 200px;
+    margin: 10px 30px 10px 0px ;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    cursor: pointer;
+
+  }
+
+  .btn button:hover{
+    background-color: yellow;
+    transition: background-color 0.5s;
+  }
+
+  /* Button Text */
+.btn a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Dosis", serif;
+  color: black;
+}
+
+/* 🌟 Mobile Responsive Styles */
+@media (max-width: 768px) {
+   .home h1 {
+       font-size: 50px; /* Reduce heading size */
+   }
+
+   .devop-tag {
+       flex-direction: column;
+       gap: 5px;
+   }
+
+   .btn button {
+       width: 150px; /* Smaller button for mobile */
+       height: 45px;
+       font-size: 16px;
+   }
+
+   .btn a {
+       font-size: 16px;
+   }
+}
+
+/* 🌟 Very Small Screens */
+@media (max-width: 480px) {
+   .home h1 {
+       font-size: 40px; /* Even smaller text for tiny screens */
+   }
+
+   .btn button {
+       width: 130px;
+       height: 40px;
+       font-size: 14px;
+   }
+
+   .btn a {
+       font-size: 14px;
+   }
+}

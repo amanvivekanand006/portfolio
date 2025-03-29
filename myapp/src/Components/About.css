@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+
+.container {
+    background-color:black;
+    display: flex;
+    height: 800px;
+    flex-direction: row;
+    align-items: center; /* Vertically centers content-div and img-div */
+    justify-content: center;
+}
+
+#img-div{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img-div img {
+    width: 100%; /* Adjusts the image width relative to the container */
+    max-width: 300px; /* Limits the maximum width of the image */
+    height: 400px; /* Maintains aspect ratio */
+    object-fit: cover; /* Ensures the image scales nicely */
+    border-radius: 10px; /* Optional: Rounds the corners of the image */
+}
+
+.content-div{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+
+#question{
+margin: 0; /* Removes default margin */
+padding: 0px;
+color: yellow;
+font-family: "Roboto", serif;
+font-style: normal;
+font-size: 15px;
+
+}
+
+#name{
+    /* background-color: aliceblue; */
+    color: aliceblue;
+    margin: 0; /* Removes default margin */
+    padding: 0px;
+    font-family: "Dosis", serif;
+    font-style: normal;
+    font-size: 40px;
+}
+
+#role{
+    /* background-color: aliceblue; */
+    color: yellow;
+    margin: 0; /* Removes default margin */
+    padding: 0px;
+    font-family: "Roboto", serif;
+    font-style: normal;
+    font-size: 15px;
+}
+
+#summary{
+    color: aliceblue;
+    margin: 0; /* Removes default margin */
+    padding: 0px;
+    font-family: "Dosis", serif;
+    font-style: normal;
+    font-size: 20px;
+    max-width: 70%; /* it is setting a line width */
+    line-height: 1.6; /*line height */
+}
+
+.content-div .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .content-div .social-icons a {
+    font-size: 24px;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .content-div .social-icons a:hover {
+    color: yellow;
+  }
+  
+
+  @media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    #img-div img {
+        max-width: 250px;
+        height: auto;
+    }
+
+    .content-div {
+        align-items: center;
+        text-align: center;
+    }
+
+    #summary {
+        max-width: 90%;
+    }
+
+    .content-div .social-icons {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    #name {
+        font-size: 30px;
+    }
+
+    #role {
+        font-size: 14px;
+    }
+
+    #summary {
+        font-size: 16px;
+    }
+
+    .social-icons a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    #name {
+        font-size: 25px;
+    }
+
+    #role {
+        font-size: 12px;
+    }
+
+    #summary {
+        font-size: 14px;
+    }
+
+    .social-icons a {
+        font-size: 18px;
+    }
+}
