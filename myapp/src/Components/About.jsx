@@ -10,6 +10,7 @@ export default function About() {
         <img src={img1}></img>
       </div>  
       <div className='content-div'>
+        <br></br>
          <h1 className='animate__animated animate__backInRight' id="question">Who Am I ?</h1>
          <h1 className='animate__animated animate__backInRight' id="name">V Aman</h1><br></br><br></br>
          <h2 className='animate__animated animate__backInRight' id='role'>Professional Web Developer</h2>

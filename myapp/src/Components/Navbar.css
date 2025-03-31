@@ -85,6 +85,7 @@ nav li a:hover{
 
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -104,14 +105,26 @@ html {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
 }
 
-.logo h1 {
+/* .logo h1 {
     font-family: 'myfont', sans-serif; 
     font-size: 30px;
 
 
     /* font-family: 'Dosis', sans-serif; */
-    margin: 0 0 0 15px;
-    color: white;
+    /* margin: 0 0 0 15px;
+    color: white; */
+/* }  */
+
+.gradient-text {
+    font-family: "Monoton", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    background-clip: text;  /* Standard property */
+    -webkit-background-clip: text; /* Webkit-based browsers */
+    -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 
 /* Desktop Menu */

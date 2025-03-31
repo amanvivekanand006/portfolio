@@ -37,7 +37,7 @@ export default function Navbar() {
   return (
     <nav className="nav-container">
       <div className="logo">
-        <h1>Aman</h1>
+        <h1 class="gradient-text">Aman</h1>
       </div>
 
       {/* Hamburger Icon for Mobile */}
