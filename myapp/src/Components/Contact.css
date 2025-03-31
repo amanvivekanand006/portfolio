@@ -5,7 +5,7 @@
 /* css for contact box */
 .contact-container{
     display: flex;
-    height: 800px;
+    /* height: 500px; */
     background-color: #222222;
     
 }

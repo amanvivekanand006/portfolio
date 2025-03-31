@@ -10,10 +10,17 @@ export default function Contact() {
     <div className='contact-container'>
       <div id='contact' className='animate__animated animate__backInLeft'>
       <h1 id='phone'>PHONE:</h1>
+      <br></br>
       <h1 id='number'> 9949098087</h1>
+      <br></br>
+      <br></br>
       <h1 id='address'>ADDRESS:</h1>
+      <br></br>
       <h1 id='my_add'> 18-200, Mes Colony, Venkatapuram, Alwal, Sec, 500015</h1>
+      <br></br>
+      <br></br>
       <h1 id='email_id'>EMAIL:</h1>
+      <br></br>
       <h1 id='my_email'>amanvivekanand@gmail.com</h1>
       </div>
       <div id='send-msg' className='animate__animated animate__backInRight'>
